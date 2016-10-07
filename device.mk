@@ -147,6 +147,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.qseecomd.sh:system/bin/init.bullhead.qseecomd.sh
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_AAPT_CONFIG := normal
